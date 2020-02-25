@@ -3,6 +3,8 @@ package githubstudy
 object Main {
     @JvmStatic
     fun main(args: Array<String>) {
-        println("Hello world!!")
+        for (i in 1..10) {
+            println("Hello world!")
+        }
     }
 }
